@@ -1,0 +1,16 @@
+Prompt 1: Act as an expert SEO strategist. My niche is sustainable gardening. My target audience is urban homeowners. Task: Generate a list of 10 highly relevant and low-competition long-tail keywords centered around the topic: \n\n{topic}. For each keyword, provide the Keyword Phrase, the estimated Search Intent for Informational, Commercial, Navigational, Transactional), and a 1-sentence description of the Ideal Target Article Angle."
+
+
+Prompt 2: Use the top-performing informational long-tail keyword from the previous step: \n\n{long_tail_keywords}. Task: Develop a comprehensive, SEO-optimized article outline for a target word count of 800 words. The outline must include an engaging H1 Title that incorporates the primary keyword. 2-3 main H2 sections that logically cover the topic and address the specified Search Intent. 1-2 H3 sub-sections under each H2, structured to address common 'People Also Ask' (PAA) questions and secondary LSI keywords. A final Conclusion H2 with a strong Call-to-Action (CTA)."
+
+
+Prompt 3: From the list of long tail keywords generated from prompt 1: \n\n{long_tail_keywords}, select the primary keyword for the article draft.
+
+
+Prompt 4: Using the complete outline generated in the previous step: \n\n{article_outline} and the primary keyword from prompt 3: \n\n{primary_keyword}, draft the complete article. Guidelines: Write in a friendly and conversational tone. Ensure a seamless, natural flow. Do not bold keywords. Integrate the primary keyword (from Prompt 2) into the introduction, first H2, and conclusion. Strategically integrate at least 5 of the other long-tail keywords from Prompt 1 into the body of the text where they naturally fit the H2/H3 context. Draft the content section-by-section, following the exact H2/H3 structure.
+
+
+Prompt 5: Based on the fully drafted article content from the previous step: \n\n{article_draft} and the primary keyword: \n\n{primary_keyword}, generate the SEO Title Tag. Must be 55-60 characters long, include the primary keyword near the beginning, and use a power word (e.g., Guide, Secret, Proven).
+
+
+Prompt 6: Based on the fully drafted article content from the previous step: \n\n{article_draft} and the primary keyword:\n\n{primary_keyword}, generate the Meta Description. Must be 150-160 characters long, be highly compelling, include the primary keyword, and clearly state the value the user will receive upon clicking.
