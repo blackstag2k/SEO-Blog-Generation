@@ -4,7 +4,19 @@ This project is about generating an 800-word blog/article along with a **list of
 
 ## Workflow
 
-genai package - pandas - long tail keywords - article outline - primary keyword - article draft - seo title tag - meta description - saved in csv
+```mermaid
+flowchart TD
+
+A[genai package] --> B[pandas]
+B --> C[long tail keywords]
+C --> D[article outline]
+D --> E[primary keyword]
+E --> F[article draft]
+F --> G[SEO title tag]
+G --> H[meta description]
+H --> I[saved in csv]
+```
+
 
 ## Steps to Run the Code
 
